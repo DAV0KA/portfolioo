@@ -4,7 +4,7 @@
     <div class="flex flex-col gap-3">
       <!-- Заголовок + дата -->
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-        <div class="flex gap-5">
+        <div class="flex gap-5 items-center">
             <!-- Лого -->
             <img 
                 v-if="logo" 
@@ -24,7 +24,7 @@
       </div>
 
       <!-- Текст -->
-      <p class="text-gray-300 leading-relaxed">
+      <p class="text-gray-300 leading-relaxed pt-0 md:pt-3">
         {{ description }}
       </p>
 
