@@ -73,3 +73,5 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+https://www.figma.com/design/cnVaR4FmlATiYmwi3ajUMi/Illustration-Based-Portfolio-Website-Template--Community-?node-id=0-1&p=f&t=RSKjSWIGcYPyMOb0-0
