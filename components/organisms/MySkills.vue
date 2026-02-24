@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-4 w-full justify-center mt-20 md:mt-0 py-5">
+  <div id="skills" class="flex gap-4 w-full justify-center mt-20 md:mt-0 py-5">
     <BaseTitle>My</BaseTitle>
     <BaseTitle variant="bold">Skills</BaseTitle>
   </div>

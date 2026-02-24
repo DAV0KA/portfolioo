@@ -1,7 +1,8 @@
 <template>
   <div
     :class="[
-      'rounded-2xl p-8 flex flex-col gap-6 shadow-lg transition-all',
+      'group rounded-2xl p-8 flex flex-col gap-6 shadow-lg transition-all duration-300 ease-out',
+      'hover:-translate-y-2 hover:shadow-2xl hover:scale-[1.01]',
       isDark ? 'bg-black text-white' : 'bg-white text-black'
     ]"
   >
@@ -11,7 +12,8 @@
         :src="logo"
         alt="company logo"
         :class="[
-          'w-20 h-20 rounded-full object-cover border-2',
+          'w-20 h-20 rounded-full object-cover border-2 transition-transform duration-300 ease-out',
+          'group-hover:scale-105',
           isDark ? 'border-white' : 'border-black'
         ]"
       />
@@ -23,9 +25,10 @@
 
     <div
         :class="[
-            'w-1/2 h-[2px] rounded-xl mx-auto',
-            isDark ? 'bg-white' : 'bg-black'
-        ]"
+        'h-[2px] rounded-xl mx-auto transition-all duration-300 ease-out',
+        'w-1/3 group-hover:w-1/2',
+        isDark ? 'bg-white' : 'bg-black'
+      ]"
     />
 
     <div class="flex flex-col mx-auto">

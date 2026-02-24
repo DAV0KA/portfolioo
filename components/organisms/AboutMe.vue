@@ -1,6 +1,6 @@
 <template>
-    <BaseContainer class="flex flex-col md:flex-row gap-10 md:gap-20 py-20">
-        <img src="/svg/men2.svg" alt="men2">
+    <BaseContainer id="about" class="flex flex-col md:flex-row gap-10 md:gap-20 py-20">
+        <img class="md:w-1/2" src="/svg/men2.svg" alt="men2">
 
         <div>
             <div class="flex gap-4 w-full py-2">
