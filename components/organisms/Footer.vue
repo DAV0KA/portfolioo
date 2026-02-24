@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-black text-white py-6 ">
-        <div class="max-w-7xl mx-auto flex justify-between">
+        <div class="max-w-7xl px-4 mx-auto flex justify-between">
             <div class="text-xl font-bold tracking-[-0.02em]">
                 Logo
             </div>
