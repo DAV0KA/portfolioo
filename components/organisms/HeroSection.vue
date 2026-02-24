@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <img class="scale-100 mt-10 md:-ml-20 md:mt-20 mb-10 md:mr-20 -z-10 w-full md:w-1/2 min-h-20" src="/svg/men.svg" alt="men">
+        <img class="mt-10 md:-ml-20 md:mt-20 mb-10 md:mr-20 -z-10 w-full md:w-1/2 min-h-20" src="/svg/men.svg" alt="men">
     </BaseContainer>
 </template>
 <script setup>
