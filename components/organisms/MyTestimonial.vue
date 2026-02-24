@@ -12,6 +12,7 @@
             :text="item.text"
             :name="item.name"
             :position="item.position"
+            :variant="item.variant"
         />
     </BaseContainer>
 
@@ -26,19 +27,22 @@ const testimonials = [
     logo: '/img/Testimonial/cat.png',
     text: 'Храни тебя бог',
     name: 'Екатерина Радченко',
-    position: 'Developer at Rubezh'
+    position: 'Developer at Rubezh',
+    variant: 'light'
   },
   {
     logo: '/img/Testimonial/cat.png',
     text: 'я не буду... ты будешь',
     name: 'Екатерина Радченко',
-    position: 'Developer at Rubezh'
+    position: 'Developer at Rubezh',
+    variant: 'dark'
   },
   {
     logo: '/img/Testimonial/cat.png',
     text: 'Надеюсь он не пожимает руки с утра всем',
     name: 'Екатерина Радченко',
-    position: 'Developer at Rubezh'
+    position: 'Developer at Rubezh',
+    variant: 'light'
   }
 ]
 </script>
