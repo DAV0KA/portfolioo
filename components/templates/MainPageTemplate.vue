@@ -4,7 +4,7 @@
   <MySkills />
   <MyExperience />
   <AboutMe />
-  <MyProjects />
+  <!-- <MyProjects /> -->
   <MyTestimonial />
   <ContactSection />
   <Footer />
