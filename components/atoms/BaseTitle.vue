@@ -2,10 +2,10 @@
   <component
     :is="as"
     :class="[
-      'tracking-[-0.02em]',
+      'tracking-[-0.02em] whitespace-nowrap',
       variant === 'bold' ? 'font-[800]' : 'font-[400]',
       color === 'white' ? 'text-white' : 'text-black',
-      'text-4xl 2xl:text-6xl'
+      'text-4xl md:text-5xl xl:text-6xl'
     ]"
   >
     <slot />

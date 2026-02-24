@@ -1,10 +1,10 @@
 <template>
-  <div class="flex gap-4 w-full justify-center">
+  <div class="flex gap-4 w-full justify-center mt-20">
     <BaseTitle>My</BaseTitle>
     <BaseTitle variant="bold">Skills</BaseTitle>
   </div>
 
-    <BaseContainer class="grid grid-cols-4 gap-5 py-12">
+    <BaseContainer class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 py-12">
     <SkillsCard v-for="skill in skills" :key="skill.name" :image="skill.image">
         {{ skill.name }}
     </SkillsCard>

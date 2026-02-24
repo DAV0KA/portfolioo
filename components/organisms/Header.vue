@@ -8,7 +8,7 @@
       </div>
 
       <!-- Навигация -->
-      <nav class="flex items-center gap-8 text-sm">
+      <nav class="md:flex items-center gap-8 text-sm hidden">
         <a href="#about" class="font-semibold hover:text-gray-600">About Me</a>
         <a href="#skills" class="font-semibold hover:text-gray-600">Skills</a>
         <a href="#projects" class="font-semibold hover:text-gray-600">Project</a>
