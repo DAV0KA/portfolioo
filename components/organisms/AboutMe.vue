@@ -1,5 +1,5 @@
 <template>
-    <div class="flex gap-4 w-full justify-center">
+    <div class="flex gap-4 w-full justify-center py-5">
         <BaseTitle>About</BaseTitle>
         <BaseTitle variant="bold">Me</BaseTitle> 
     </div>
