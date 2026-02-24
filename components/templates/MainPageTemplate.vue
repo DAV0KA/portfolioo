@@ -1,13 +1,13 @@
 <template>
   <Header />
-  <!-- <HeroSection />
+  <HeroSection />
   <MySkills />
   <MyExperience />
   <AboutMe />
   <MyProjects />
   <MyTestimonial />
   <ContactSection />
-  <Footer /> -->
+  <Footer />
 </template>
 
 <script setup>

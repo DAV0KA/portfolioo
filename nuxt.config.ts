@@ -3,4 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   modules: ["@nuxtjs/tailwindcss"],
   components: [{ path: "~/app/components", pathPrefix: false }],
+  devtools: {
+    enabled: false,
+  },
 });
